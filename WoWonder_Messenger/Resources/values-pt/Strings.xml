@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--Notes :-->
+  <!-- - If the text is marked ' Please replace with the symbol &apos; and add at the beginning and end of the sentence "
+        Example: Let's get started! >> "Let&apos;s get started!"  -->
+  <!-- - If the text is marked & Please replace with the symbol &amp; 
+        Example. Movies & Animation >> Movies &amp; Animation   -->
+
+  <!--supportsRtl-->
+  <string name="Is_arabic">false</string>
+  <!--===============================================================-->
+
+  <!--facebook ID  // This information is only in the master file .. values/strings.xml-->
+  <!--<string name="facebook_app_id"></string>-->
+  <!--<string name="fb_login_protocol_scheme"></string>-->
+  <!--===============================================================-->
+
+  <!--AD MOB // This information is only in the master file .. values/strings.xml-->
+  <!--<string name="banner_ad_unit_id"></string>-->
+  <!--===============================================================-->
+
+  <!--Label V1.6-->
+  <!--===============================================================-->
+  <string name="Lbl_Empty_Lastmessages">Não há mais mensagens</string>
+  <string name="Lbl_Start_Lastmessages">Inicie novas conversas acessando >> Contatos</string>
+  <string name="Lbl_Empty_OnlineSearch">Pesquisa vazia</string>
+  <string name="Lbl_Start_OnlineSearch">Comece sua pesquisa digitando na caixa</string>
+  <string name="Lbl_Titile_Register">Registrar agora</string>
+  <string name="Lbl_Subtitile_Register">Cadastre-se agora e comece a conversar com seus amigos</string>
+  <string name="Lbl_Subtitile_Login">Messenger</string>
+  <string name="Lbl_Email">Email</string>
+  <string name="Lbl_Username">Nome de usuário</string>
+  <string name="Lbl_Password">Senha</string>
+  <string name="Lbl_Repeat_password">Repetir Senha</string>
+  <string name="Lbl_Forget_your_Password">Esqueceu sua Senha?</string>
+  <string name="Lbl_Empty_lastStoriess">Não há histórias</string>
+  <string name="Lbl_Start_lastStoriess">As fotos e os vídeos compartilhados nas histórias só são visíveis por 24 horas após serem adicionados</string>
+  <string name="Lbl_Empty_usercontacts">Não há contatos</string>
+  <string name="Lbl_Start_usercontacts">Comece a adicionar novos contatos !</string>
+  <string name="Lbl_Followers">SEGUIDORES</string>
+  <string name="Lbl_Following">SEGUINDO</string>
+  <string name="Lbl_User_Info">informação de usuário</string>
+  <string name="Lbl_Gender">Gênero</string>
+  <string name="Lbl_Location">Localização</string>
+  <string name="Lbl_Mobile">Mobile</string>
+  <string name="Lbl_Website">Website</string>
+  <string name="Lbl_Workplace">Workplace</string>
+  <string name="Lbl_Social_Links">Social Links</string>
+  <string name="Lbl_Last_seen">Visto pela última vez</string>
+  <string name="Lbl_Empty">Vazio</string>
+  <string name="Lbl_DefaultAbout">Oi eu estou usando</string>
+  <string name="Lbl_SendImageFile">Foto</string>
+  <string name="Lbl_SendVideoFile">Arquivo de vídeo</string>
+  <string name="Lbl_SendStickerFile">Arquivo de etiqueta</string>
+  <string name="Lbl_SendAudioFile">Arquivo de audio</string>
+  <string name="Lbl_SendGifFile">Arquivo de Gif</string>
+  <string name="Lbl_SendFile">Arquivo</string>
+  <string name="Lbl_SendContactnumber">Contact number</string>
+  <string name="Lbl_SendMessage">Envie uma mensagem para você</string>
+  <string name="Lbl_hours">H</string>
+  <string name="Lbl_days">D</string>
+  <string name="Lbl_month">M</string>
+  <string name="Lbl_minutes">Min</string>
+  <string name="Lbl_seconds">Seg</string>
+  <string name="Lbl_year">Y</string>
+  <string name="Lbl_Online">Online</string>
+  <string name="Lbl_Empty_BlockedUser">Nenhum usuário bloqueado</string>
+  <string name="Lbl_BlockedUsers">Usuários bloqueados</string>
+  <string name="Lbl_Blocked_successfully">Bloqueado com sucesso</string>
+  <string name="Lbl_Unblock_successfully">Desbloqueado com sucesso</string>
+  <string name="Lbl_About">Sobre mim</string>
+  <string name="Lbl_Titile">Título</string>
+  <string name="Lbl_Loading">Carregando…</string>
+  <string name="Lbl_Done">Feito</string>
+  <string name="Lbl_TextChatNotSupported">A mensagem não é suportada nesta versão</string>
+  <string name="Lbl_Typping">Digitando...</string>
+  <string name="Lbl_Add_New">Adicionar novo</string>
+  <string name="Lbl_Facebook">Facebook</string>
+  <string name="Lbl_Google">Google</string>
+  <string name="Lbl_Twitter">Twitter</string>
+  <string name="Lbl_Linkedin">Linkedin</string>
+  <string name="Lbl_VK">VK</string>
+  <string name="Lbl_Instagram">Instagram</string>
+  <string name="Lbl_Youtube">Youtube</string>
+  <string name="Lbl_FirstName">Primeiro nome</string>
+  <string name="Lbl_LastName">Último nome</string>
+  <string name="Lbl_Add_caption">Adicione uma legenda..</string>
+  <string name="Lbl_Change_Password">Mudar senha</string>
+  <string name="Lbl_Current_Password">Senha atual</string>
+  <string name="Lbl_New_Password">Nova senha</string>
+  <string name="Lbl_MyContacts">Meus contatos</string>
+  <string name="Lbl_Empty_calls">Sem chamadas</string>
+  <string name="Lbl_Start_calls">Inicie uma nova chamada da sua lista de amigos, pressionando o botão na parte inferior da tela.</string>
+  <string name="Lbl_Forgot_your_password">Esqueceu sua senha</string>
+  <string name="Lbl_Forgot_your_password_DontWorry">Não se preocupe, digite seu e-mail aqui e vamos recuperá-lo para você.</string>
+  <string name="Lbl_Addnewstory">Adicionar nova história</string>
+  <string name="Lbl_Calling">Chamando...</string>
+  <string name="Lbl_Waiting_to_connect">Esperando para conectar...</string>
+  <string name="Lbl_Faild_to_connect">Falhou ao conectar !!</string>
+  <string name="Lbl_No_respond_from_the_user">Nenhuma resposta do usuário</string>
+  <string name="Lbl_The_user_declinde_your_call">O usuário recusou sua chamada</string>
+  <string name="Lbl_Lost_his_connection">Perdeu sua conexão</string>
+  <string name="Lbl_Please_wait">Por favor, espere</string>
+  <string name="Lbl_Lost_Connection">Conexão perdida</string>
+  <string name="Lbl_Muted_his_video">Silenciou o vídeo dele</string>
+  <string name="Lbl_Waiting_for_answer">Esperando por resposta</string>
+  <string name="Lbl_Calling_video">Chamando vídeo</string>
+  <string name="Lbl_Select_contact">Selecione contato</string>
+  <string name="Lbl_Doyouwanttodeletechatwith">Excluir conversa de bate-papo</string>
+  <string name="Lbl_Call">Ligar</string>
+  <string name="Lbl_Select_Type_Call">Selecione o tipo de chamada?</string>
+  <string name="Lbl_Voice_call">Chamada de voz</string>
+  <string name="Lbl_Video_call">Chamada de vídeo</string>
+  <string name="Lbl_Web">Web</string>
+  <string name="Lbl_Phone">Telefone</string>
+  <string name="Lbl_Write_your_message">Escreva sua mensagem</string>
+  <string name="Lbl_Notification_of_Messages">Notificação de Mensagens</string>
+  <string name="Lbl_Dismiss">Ignorar</string>
+  <string name="Lbl_Answer">Responder</string>
+  <string name="Lbl_Clear_call_log">Limpar o registro de chamadas</string>
+  <string name="Lbl_Answered_call">Chamada atendida</string>
+  <string name="Lbl_Missed_call">Chamada perdida</string>
+  <string name="Lbl_Declined_call">Chamada recusada </string>
+  <string name="Lbl_Connected">Conectado</string>
+  <string name="Lbl_User_Lost_Connection">Conexão perdida pelo usuário</string>
+  <string name="Lbl_is_calling_you">está chamando você</string>
+  <string name="Lbl_Recording">Recording...</string>
+  <string name="Lbl_Friends">Friends</string>
+  <string name="Lbl_Crop">Crop</string>
+  <string name="Lbl_Please_write_your_email">Please write your email</string>
+
+  <!--Radio-->
+  <string name="Radio_Male">Masculino</string>
+  <string name="Radio_Female">Feminino</string>
+  <!--===============================================================-->
+
+  <!--Button-->
+  <string name="Btn_SearchRandom">Pesquisar Aleatório</string>
+  <string name="Btn_Sign_Up">Inscreva-se</string>
+  <string name="Btn_Log_in">Efetuar login</string>
+  <string name="Btn_UnBlock">Desbloquear</string>
+  <string name="Btn_CreateStory">Criar história</string>
+  <string name="Btn_DeleteMessage">Excluir</string>
+  <string name="Btn_Send">Enviar</string>
+  <string name="Btn_Image">Imagem</string>
+  <string name="Btn_Video">Vídeo</string>
+  <!--===============================================================-->
+
+  <!--Tabbed_Main_Page-->
+  <string name="Lbl_Tab_Chats">Conversas</string>
+  <string name="Lbl_Tab_Stories">Historias</string>
+  <string name="Lbl_Tab_Calls">Chamadas</string>
+  <!--===============================================================-->
+
+  <!--WalkTroutPage-->
+  <string name="Lbl_Title_page1">Nova Versão</string>
+  <string name="Lbl_Description_page1">Rápido para que possamos levá-lo ao nosso espaço</string>
+  <string name="Lbl_Title_page2">Pesquisa global</string>
+  <string name="Lbl_Description_page2">Encontre novos amigos e contatos</string>
+  <string name="Lbl_Title_page3">Novos recursos</string>
+  <string name="Lbl_Description_page3">Enviar e Receba todo o tipo de mensagens</string>
+  <string name="Lbl_Title_page4">Fique sincronizado</string>
+  <string name="Lbl_Description_page4">Mantenha sua conversa em todos os dispositivos</string>
+  <!--===============================================================-->
+
+  <!--Toast Or Message-->
+  <string name="Lbl_The_request_to_add_to">O pedido para adicionar a</string>
+  <string name="Lbl_has_been_sent_successfully">foi enviado com sucesso</string>
+  <string name="Lbl_Security">Segurança</string>
+  <string name="Lbl_Ok">Ok</string>
+  <string name="Lbl_Oops">Ops</string>
+  <string name="Lbl_Error">Erro</string>
+  <string name="Lbl_Authentication_failed">Falha na autenticação</string>
+  <string name="Lbl_Something_went_wrong">Algo deu errado</string>
+  <string name="Lbl_InviteSMSText_1">Olá, vamos conhecer em</string>
+  <string name="Lbl_InviteSMSText_2">para o seu smartphone</string>
+  <string name="Lbl_Please_check_your_details">Por favor, verifique seus detalhes</string>
+  <string name="Lbl_Your_password_dont_match">Sua senha não corresponde</string>
+  <string name="Lbl_Warning">Aviso!</string>
+  <string name="Lbl_Are_you_logout">Tem certeza que você foi sair?</string>
+  <string name="Lbl_Cancel">Cancelar</string>
+  <string name="Lbl_Closed_App">Será reiniciado para aplicar esta opção.</string>
+  <string name="Lbl_Need_Camera">Requer permissões de câmera e microfone para chamar.</string>
+  <string name="Lbl_Room_Disconnected">Usuário desconectado.</string>
+  <string name="Lbl_Uploads_Story">Sua nova história aparecerá em breve.</string>
+  <string name="Lbl_IsEmailValid">Por favor escreva o seu endereço de email completo.</string>
+  <string name="Lbl_Sent_successfully">Sent successfully.</string>
+  <string name="Lbl_Sent_successfully_followed">You have followed the user successfully.</string>
+  <string name="Lbl_Sent_successfully_FriendRequest">The friend request has been sent successfully.</string>
+  <string name="Lbl_Sent_successfully_Unfollowed">The user has been Unfollowed.</string>
+  <string name="Lbl_Sent_successfully_FriendRequestCancelled">The friend request has been canceled.</string>
+  <string name="Lbl_Copied">Copied!</string>
+  <string name="Lbl_Permission_is_denailed">Sorry: You cannot proceed with your action if you dont allow</string>
+  <!--===============================================================-->
+
+  <!--Error-->
+  <string name="Lbl_Error_Verify">por favor, verifique o seu pedido a partir do seu painel de administração</string>
+  <string name="Lbl_Error_Api">API-KEY And API-ID estão incorretos</string>
+  <string name="Lbl_Error_SettingsNull">configurações estão erradas</string>
+  <string name="Lbl_Error_check_internet_connection">Verifique suas credenciais, algo deu errado</string>
+  <!--===============================================================-->
+
+  <!--menu-->
+  <string name="Lbl_Add">Adiciona</string>
+  <string name="Lbl_Clear_chat">Limpar conversa</string>
+  <string name="Lbl_Block">Block</string>
+  <string name="Lbl_View_Profile">Ver perfil</string>
+  <string name="Lbl_Edit">Editar</string>
+  <string name="Lbl_Save">Salvar</string>
+  <string name="Lbl_Invite_Friends">Convidar Amigos</string>
+  <string name="Lbl_Refresh">Atualizar</string>
+  <string name="Lbl_Blocked_User_List">Lista de usuários bloqueados</string>
+  <string name="Lbl_Settings">Configurações</string>
+  <!--===============================================================-->
+
+  <!--SettingsPreferences-->
+  <string name="Lbl_Account_and_Profile">Conta e Perfil</string>
+  <string name="Lbl_Edit_Profile_and_avatar">Editar perfil e avatar</string>
+  <string name="Lbl_My_Account">Minha conta</string>
+  <string name="Lbl_Change_your_password">Altere sua senha</string>
+  <string name="Lbl_Privacy">Privacidade</string>
+  <string name="Lbl_Who_can_follow_me">Quem pode me seguir?</string>
+  <string name="Lbl_Who_can_message_me">Quem pode me enviar mensagens?</string>
+  <string name="Lbl_Who_can_see_my_birthday">Quem pode ver meu aniversário?</string>
+  <string name="Lbl_Message_Notifications">Notificações de mensagens</string>
+  <string name="Lbl_Summary_notifications">Receber notificações quando receber mensagens</string>
+  <string name="Lbl_Conversation_tones">Tons de conversa</string>
+  <string name="Lbl_Summary_Play_sounds">Reproduzir sons para mensagens recebidas e enviadas</string>
+  <string name="Lbl_Language">Idioma</string>
+  <string name="Lbl_Display_your_app_Language">Exibe o idioma do seu aplicativo</string>
+  <string name="Lbl_Support">Suporte</string>
+  <string name="Lbl_Help">Ajuda</string>
+  <string name="Lbl_Report_Problem">Relatar um problema</string>
+  <string name="Lbl_Logout">Logout</string>
+  <string name="Lbl_Everyone">Todos</string>
+  <string name="Lbl_People_i_Follow">Pessoas que eu sigo</string>
+  <string name="Lbl_No_body">Nenhum corpo</string>
+  <string name="Lbl_Notification_Popup">Notification Popup</string>
+  <string name="Lbl_General">Geral</string>
+  <!--===============================================================-->
+
+  <!--New Label V1.6.2-->
+  <!--===============================================================-->
+  <string name="termCheck">I agree to the terms and conditions</string>
+  <string name="Terms_of_service">
+    <u>Terms of service</u> and
+  </string>
+  <string name="Privacy_Policy">
+    <u>Privacy Policy</u>
+  </string>
+  <string name="Lbl_Error_Terms">You can not access your disapproval of the Terms and Conditions</string>
+  <string name="Lbl_DeleteAccount">Delete account</string>
+  <string name="Lbl_Are_you_DeleteAccount">Are you sure you want to delete the account from</string>
+  <string name="Lbl_Please_enter_your_data">Please enter your data</string>
+
+  <!--New Label V1.7-->
+  <!--===============================================================-->
+  <string name="Lbl_SelectFile">Select File</string>
+  <string name="Lbl_Search_Filter">Search Filter</string>
+  <string name="Lbl_All">All</string>
+  <string name="Lbl_Profile_Picture">Profile Picture</string>
+  <string name="Lbl_Yes">Yes</string>
+  <string name="Lbl_No">No</string>
+  <string name="Lbl_Close">Close</string>
+  <string name="Lbl_Offline">Offline</string>
+  <string name="Lbl_Status">Status</string>
+  <string name="Lbl_Skip">Skip</string>
+  <string name="Lbl_Select_what_you_want">Select what you want</string>
+  <string name="Lbl_File">File</string>
+  <string name="Lbl_Music">Music</string>
+  <string name="Lbl_Failed_to_load">Failed to load</string>
+  <string name="Lbl_Loading_From_Server">Loading from server</string>
+  <string name="Lbl_No_have_more_users">No have more users</string>
+  <string name="Lbl_Error_Register_password">Register Not Correct, error Password</string>
+  <string name="Lbl_VerificationFailed">Verification failed</string>
+  <string name="Lbl_Email_Has_Been_Send">Email Has Been Send</string>
+  <string name="Lbl_Error_path_image">Error path image</string>
+  <string name="Lbl_Your_account_was_successfully_deleted">Your account was successfully deleted</string>
+  <string name="Lbl_Please_confirm_your_password">Error, Please confirm your password</string>
+  <string name="Lbl_You_will_be_logged">You will be logged out now, see you later</string>
+  <string name="Lbl_If_you_forgot_your_password">If you forgot your password, you can reset it from here.</string>
+  <string name="Lbl_IWantToDelete1">Yes, I want to delete</string>
+  <string name="Lbl_IWantToDelete2">permanently from</string>
+  <string name="Lbl_IWantToDelete3">Account.</string>
+  <string name="Lbl_Deleted">Deleted</string>
+  <string name="Lbl_Follow">Follow</string>
+  <string name="Lbl_Friends">Friends</string>
+  <string name="Lbl_Request">Request</string>
+  <string name="Lbl_AddFriends">Add Friends</string>
+  <string name="Lbl_Search">Search</string>
+  <string name="Lbl_Uploading">Uploading</string>
+  <string name="Lbl_SelectGif">Select Gif</string>
+  <string name="Lbl_Gif">Gif</string>
+
+  <!--Time-->
+  <string name="Lbl_about_minute">about a minute ago</string>
+  <string name="Lbl_about_hour">about an hour ago</string>
+  <string name="Lbl_yesterday">yesterday</string>
+  <string name="Lbl_about_month">about a month ago</string>
+  <string name="Lbl_about_year">about a year ago</string>
+
+  <!--Login && Register-->
+  <string name="Lbl_Error_Login">Login Not Correct, error Username Or Password</string>
+  <string name="Lbl_Null_Data_User">Null data user</string>
+  <string name="Btn_LoginGoogle">Sign in with Google</string>
+
+  <string name="Lbl_ErrorLogin_3">Incorrect username or password</string>
+  <string name="Lbl_ErrorLogin_4">Username not found</string>
+  <string name="Lbl_ErrorLogin_5">Password is incorrect</string>
+
+  <string name="Lbl_ErrorRegister_3">Error found, please try again later</string>
+  <string name="Lbl_ErrorRegister_4">Username is already taken</string>
+  <string name="Lbl_ErrorRegister_5">Invalid username characters, please choose another username</string>
+  <string name="Lbl_ErrorRegister_6">Username must be between 5 / 32 letters</string>
+  <string name="Lbl_ErrorRegister_7">Email is already taken</string>
+  <string name="Lbl_ErrorRegister_8">Email is invalid</string>
+  <string name="Lbl_ErrorRegister_9">The password is too short</string>
+  <string name="Lbl_ErrorRegister_10">"Passwords don&apos;t match"</string>
+  <string name="Lbl_ErrorRegister_11">Error found while sending the verification email, please try again later</string>
+
+  <!--===============================================================-->
+
+  <!--Privacy Setting-->
+  <!--===============================================================-->
+  <string-array name="settings_follow_array">
+    <item>Todos</item>
+    <item>Pessoas que eu sigo</item>
+  </string-array>
+  <string-array name="settings_birthday_array">
+    <item>Todos</item>
+    <item>Pessoas que eu sigo</item>
+    <item>No body</item>
+  </string-array>
+  <string-array name="settings_message_array">
+    <item>Todos</item>
+    <item>Pessoas que eu sigo</item>
+  </string-array>
+  <string-array name="value_settings_follow_array">
+    <item>0</item>
+    <item>1</item>
+  </string-array>
+  <string-array name="value_settings_birthday_array">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+  </string-array>
+  <string-array name="value_settings_message_array">
+    <item>0</item>
+    <item>1</item>
+  </string-array>
+</resources>

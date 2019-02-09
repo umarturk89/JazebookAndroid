@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+  <style name="SpalchScreenTheme" parent="Theme.AppCompat.Light">
+    <item name="android:windowBackground">@drawable/splashscreen</item>
+    <item name="android:windowNoTitle">true</item>
+  </style>
+
+  <style name="MyTheme" parent="MyTheme.Base"> </style>
+  <style name="MyTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorPrimary">@color/main_color</item>
+    <item name="colorAccent">@color/main_color</item>
+    <item name="colorPrimaryDark">@color/PrimaryDark_color</item>
+    <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+    <item name="android:textColor">#fff</item>
+    <item name="android:textSize">18sp</item>
+    <!--<item name="android:statusBarColor">@color/main_color</item>-->
+    <item name="android:logo">@drawable/icon</item>
+    <item name="android:alertDialogTheme">@style/AlertDialogCustom</item>
+  </style>
+
+
+  <style name="TranslucenActivty" parent="TranslucenActivty.Base"> </style>
+  <style name="TranslucenActivty.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+  <item name="android:windowTranslucentStatus">true</item>
+  <item name="android:windowTranslucentNavigation">true</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorPrimary">@color/main_color</item>
+    <item name="colorAccent">@color/main_color</item>
+    <item name="android:textColor">#fff</item>
+    <item name="android:textSize">18sp</item> 
+  </style>
+
+  <style name="ProfileTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="android:windowTranslucentNavigation">true</item>
+    <item name="colorPrimary">#9E000000</item>
+    <item name="colorPrimaryDark">#000000</item>
+    <item name="colorAccent">@color/main_color</item>
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+    <item name="android:statusBarColor">#000000</item>
+    <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    <item name="android:windowTranslucentStatus">true</item>
+  </style>
+  <style name="ProfileTheme.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+    <item name="android:windowDrawsSystemBarBackgrounds" >true</item>
+    <item name="android:windowTranslucentStatus">true</item>
+  </style>
+  <style name="tab_style_ProfileTheme" parent="TextAppearance.Design.Tab">
+    <item name="textAllCaps">false</item>
+    <item name="android:textSize">13sp</item>
+  </style>
+
+  <style name="SettingsTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+    <item name="colorPrimary">@color/main_color</item>
+    <item name="colorAccent">@color/main_color</item>
+    <item name="colorPrimaryDark">@color/PrimaryDark_color</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+   </style>
+
+  <style name="ToolbarTitleTheme" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+    <item name="android:textSize">16dp</item>
+
+  </style>
+
+  <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+    <item name="android:textSize">16sp</item>
+  </style>
+
+  <style name="ToolbarSubtitleTheme" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+    <item name="android:textSize">11dp</item>
+  </style>
+
+
+  <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+    <!--buttons-->
+    <item name="colorAccent">#ffffff</item>
+    <!--title-->
+    <item name="android:textColor">#ffffff</item>
+    <!--text-->
+    <item name="android:textColorPrimary">#fafafa</item>
+    <!--selection list-->
+    <item name="android:textColorTertiary">#fafafa</item>
+    <!--background-->
+    <item name="android:background">#444444</item>
+  </style>
+
+  <style name="MyApp.DialogButton" parent="@android:style/TextAppearance.Material.Button">
+    <item name="android:textColor">#444</item>
+    <!--<item name="android:background">transparent</item>-->
+  </style>
+
+  <style name="Widget.CardContent" parent="android:Widget">
+    <item name="android:paddingLeft">16dp</item>
+    <item name="android:paddingRight">16dp</item>
+    <item name="android:paddingTop">24dp</item>
+    <item name="android:paddingBottom">24dp</item>
+    <item name="android:orientation">vertical</item>
+  </style>
+
+  <style name="dialog_animation">
+    <item name="android:windowEnterAnimation">@anim/slide_up</item>
+    <item name="android:windowExitAnimation">@anim/slide_right</item>
+  </style>
+
+  <style name="PopupMenuStyle" parent="Theme.AppCompat.Light">
+    <item name="android:background">#444</item>
+    <item name="android:textColor">#fff</item>
+  </style>
+
+  <style name="Chatththemeb582af" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#b582af</item>
+    <item name="colorAccent">#b582af</item>
+    <item name="colorPrimaryDark">#b582af</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+  </style>
+  
+  <style name="Chatththemea84849" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#a84849</item>
+    <item name="colorAccent">#a84849</item>
+    <item name="colorPrimaryDark">#a84849</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+  </style>
+
+  <style name="Chatththemef9c270" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#f9c270</item>
+    <item name="colorAccent">#f9c270</item>
+    <item name="colorPrimaryDark">#f9c270</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+  </style>
+
+  <style name="Chatththeme70a0e0" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#70a0e0</item>
+    <item name="colorAccent">#70a0e0</item>
+    <item name="colorPrimaryDark">#70a0e0</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+  </style>
+
+  <style name="Chatththeme56c4c5" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#56c4c5</item>
+    <item name="colorAccent">#56c4c5</item>
+    <item name="colorPrimaryDark">#56c4c5</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+  </style>
+
+  <style name="Chatththemef33d4c" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#f33d4c</item>
+    <item name="colorAccent">#f33d4c</item>
+    <item name="colorPrimaryDark">#f33d4c</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+  </style>
+
+  <style name="Chatththemea1ce79" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#a1ce79</item>
+    <item name="colorAccent">#a1ce79</item>
+    <item name="colorPrimaryDark">#a1ce79</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+  </style>
+
+  <style name="Chatththemea085e2" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#a085e2</item>
+    <item name="colorAccent">#a085e2</item>
+    <item name="colorPrimaryDark">#a085e2</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+  </style>
+
+  <style name="Chatththemeed9e6a" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#ed9e6a</item>
+    <item name="colorAccent">#ed9e6a</item>
+    <item name="colorPrimaryDark">#ed9e6a</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+  </style>
+  
+  <style name="Chatththeme2b87ce" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#2b87ce</item>
+    <item name="colorAccent">#2b87ce</item>
+    <item name="colorPrimaryDark">#2b87ce</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+  </style>
+
+  <style name="Chatththemef2812b" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#f2812b</item>
+    <item name="colorAccent">#f2812b</item>
+    <item name="colorPrimaryDark">#f2812b</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+  </style>
+
+  <style name="Chatththeme0ba05d" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#0ba05d</item>
+    <item name="colorAccent">#0ba05d</item>
+    <item name="colorPrimaryDark">#0ba05d</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+  </style>
+
+  <style name="Chatththeme0e71ea" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#0e71ea</item>
+    <item name="colorAccent">#0e71ea</item>
+    <item name="colorPrimaryDark">#0e71ea</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+  </style>
+
+  <style name="Chatththemeaa2294" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#aa2294</item>
+    <item name="colorAccent">#aa2294</item>
+    <item name="colorPrimaryDark">#aa2294</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+  </style>
+
+
+  <style name="Chatththemef9a722" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#f9a722</item>
+    <item name="colorAccent">#f9a722</item>
+    <item name="colorPrimaryDark">#f9a722</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+  </style>
+  
+  <style name="Chatththeme008484" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#008484</item>
+    <item name="colorAccent">#008484</item>
+    <item name="colorPrimaryDark">#008484</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+  </style>
+
+
+  <style name="Chatththeme5462a5" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#5462a5</item>
+    <item name="colorAccent">#5462a5</item>
+    <item name="colorPrimaryDark">#5462a5</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+  </style>
+  
+
+  <style name="Chatththemefc9cde" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#fc9cde</item>
+    <item name="colorAccent">#fc9cde</item>
+    <item name="colorPrimaryDark">#fc9cde</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+  </style>
+
+  <style name="Chatththeme51bcbc" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#51bcbc</item>
+    <item name="colorAccent">#51bcbc</item>
+    <item name="colorPrimaryDark">#51bcbc</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+  </style>
+
+  
+  <style name="Chatththemec9605e" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#c9605e</item>
+    <item name="colorAccent">#c9605e</item>
+    <item name="colorPrimaryDark">#c9605e</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+  </style>
+
+  <style name="Chatththeme01a5a5" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#01a5a5</item>
+    <item name="colorAccent">#01a5a5</item>
+    <item name="colorPrimaryDark">#01a5a5</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+  </style>
+
+  <style name="Chatththeme056bba" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#056bba</item>
+    <item name="colorAccent">#056bba</item>
+    <item name="colorPrimaryDark">#056bba</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+  </style>
+
+  <style name="Chatththeme8ec96c" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#8ec96c</item>
+    <item name="colorAccent">#8ec96c</item>
+    <item name="colorPrimaryDark">#8ec96c</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+  </style>
+
+  <style name="Chatththeme609b41" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#609b41</item>
+    <item name="colorAccent">#609b41</item>
+    <item name="colorPrimaryDark">#609b41</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+  </style>
+
+  
+  <style name="Chatththemeff72d2" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#ff72d2</item>
+    <item name="colorAccent">#ff72d2</item>
+    <item name="colorPrimaryDark">#ff72d2</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+  </style>
+
+ <style name="Chatththemedefault" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">@color/main_color</item>
+    <item name="colorAccent">@color/main_color</item>
+    <item name="colorPrimaryDark">@color/PrimaryDark_color</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+  </style>
+
+</resources>
+

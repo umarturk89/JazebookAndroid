@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="right"
+    android:layout_margin="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp"
+    android:paddingRight="3dp">
+    <!--<com.github.library.bubbleview.BubbleTextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello BubbleTextVew"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:textColor="@color/text_color_light"
+        app:arrowWidth="8dp"
+        app:angle="11dp"
+        app:arrowHeight="10dp"
+        app:arrowPosition="14dp"
+        app:arrowLocation="right"
+        app:bubbleColor="?attr/colorPrimary"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="6dp" />-->
+
+  <com.github.library.bubbleview.BubbleLinearLayout
+    android:orientation="vertical"
+    app:arrowWidth="10dp"
+    app:angle="12dp"
+    app:arrowHeight="10dp"
+    app:arrowPosition="12dp"
+    app:arrowLocation="right"
+    android:layout_marginLeft="13dp"
+    app:bubbleColor="?attr/colorPrimary"
+    app:arrowCenter="false"
+    android:id="@+id/bubble_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+      android:layout_height="match_parent"
+      android:layout_width="match_parent"
+      android:orientation="horizontal">
+      <at.markushi.ui.CircleButton
+        android:id="@+id/close_button"
+        android:layout_width="40dp"
+        android:layout_height="40dip"
+        app:cb_color="#ffffffff"
+        app:cb_pressedRingWidth="3dip"
+        android:layout_marginRight="7dp"
+        android:src="@drawable/ic_close_black_24dp"
+        android:layout_weight="0" />
+  <com.luseen.autolinklibrary.AutoLinkTextView
+    android:id="@+id/active"
+    android:layout_marginRight="21dp"
+    android:layout_marginLeft="13dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:text="@string/Lbl_TextChatNotSupported"
+    android:textColor="@color/text_color_light"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+</LinearLayout>
+  </com.github.library.bubbleview.BubbleLinearLayout>
+  
+</LinearLayout>

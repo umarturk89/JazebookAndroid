@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <!--@color/Dialog_Btn_color-->
+
+  <color name="main_color">#a84849</color>
+  <color name="Button_colorSecoundry">#a84849</color>
+
+  <color name="PrimaryDark_color">#974041</color>
+  
+  <color name="secound_color">#1e2321</color>
+  <color name="white">#ffffff</color>
+  <color name="white_color">#fff</color>
+  <color name="grey_color">#898989</color>
+  <color name="greysecondary_color">#ff808080</color>
+
+  <color name="anderblack_color">#ffefefef</color>
+
+  <color name="text_color">#444</color>
+  <color name="accent_color_dark">#444</color>
+  <color name="text_color_light">#ffffff</color>
+  <color name="text_color_in_between">#888</color>
+  <color name="lightcolor">#efefef</color>
+
+  <color name="Dialog_Accent_color">#c7ac56</color>
+  <color name="Dialog_text_color">#fafafa</color>
+  <color name="Dialog_background_color">#5c8487</color>
+  <color name="Dialog_Btn_color">#8c8a8a</color>
+
+  <color name="left_ModePhone_color">#008000</color>
+  <color name="left_ModeEmail_color">#3e0e4c</color>
+  <color name="left_ModeHashtag_color">#0000ff</color>
+  <color name="left_ModeUrl_color">#df541e</color>
+  <color name="left_ModeMention_color">#ff0000</color>
+
+  <color name="right_ModePhone_color">#ffffff</color>
+  <color name="right_ModeEmail_color">#ffffff</color>
+  <color name="right_ModeHashtag_color">#ffffff</color>
+  <color name="right_ModeUrl_color">#ffffff</color>
+  <color name="right_ModeMention_color">#ffffff</color>
+  
+</resources>

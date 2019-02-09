@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/padding_list_row"
+    android:paddingLeft="?listPreferredItemPaddingLeft"
+    android:paddingRight="4dp">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/lastcallsrecyler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="0dp"
+            android:scrollbars="vertical" />
+    <LinearLayout
+        android:id="@+id/lastcall_LinerEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+      <android.support.v7.widget.AppCompatTextView
+          android:id="@+id/calls_icon"
+            android:text="I"
+            android:layout_height="wrap_content"
+            android:textColor="@color/accent_color_dark"
+            android:textSize="180sp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp" />
+        <TextView
+            android:id="@+id/Txt_LabelEmpty"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/text_color"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="@string/Lbl_Empty_calls" />
+        <TextView
+            android:id="@+id/Txt_LabelStart"
+            android:layout_width="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:layout_marginTop="10dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Lbl_Start_calls"
+            android:textColor="@color/grey_color"
+            android:layout_height="wrap_content"
+            android:typeface="normal"
+            android:gravity="center_horizontal" 
+            android:textAlignment="center" />
+    </LinearLayout>
+</RelativeLayout>
