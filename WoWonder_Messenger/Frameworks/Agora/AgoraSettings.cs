@@ -10,7 +10,7 @@ namespace WoWonder.Frameworks.Agora {
     /// </summary>
 
     public class AgoraSettings {
-        public const string AgoraAPI = "17d3c989123e4977be8cc5a1ea3102b8";
+        public const string AgoraAPI = "14e5018efc554e108b529d9fe50a052a";
 
         public static readonly int VideoQuality = Constants.VideoProfile1080p5;
         public static readonly int ProfileDefault = 30;

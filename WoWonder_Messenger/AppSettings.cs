@@ -101,8 +101,8 @@ namespace WoWonder
         public static bool Enable_Audio_Call = true;
         public static bool Enable_Video_Call = true;
 
-        public static bool Use_Agora_Library = false;
-        public static bool Use_Twilio_Library = true;
+        public static bool Use_Agora_Library = true;
+        public static bool Use_Twilio_Library = false;
 
         // Walkthrough Settings >>
         //*********************************************************
